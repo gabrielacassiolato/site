@@ -1,0 +1,220 @@
+    body{
+        background-color: #1E1E1E;
+        margin: 0;
+        padding: 0;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .header{
+        margin: auto;
+        background-color: rgba(245, 245, 245, 0.932);
+        padding:20px;
+        color: #1E1E1E;
+    }
+
+    #background{
+        background: url(./computer.png) center/cover no-repeat fixed;
+        height: 450px;
+        width: 100%;
+    }
+
+    .menu{
+        float: none;
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .logo{
+        padding: 10px;
+    }
+
+    #menuform{
+        display: inline-block;
+        padding-right: 50px;
+        margin-right: 80px;
+    }
+
+    a{
+        text-decoration: none;
+        color: black
+    }
+
+    .active:hover{
+        color: orange;
+    }
+
+    footer{
+        color:  whitesmoke;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+/* ****PÁGINA INDEX.HTML**** */
+
+    .titlehome{
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 70px;
+    }
+
+    .titlehome2{
+        color: whitesmoke;
+        margin-left: 90px;
+        font-size: 17px;
+    }
+
+    .triangle{
+        float: right;
+        margin-right: 170px;
+        margin-top: 80px;
+        max-width: 300px;
+    }
+
+/* ****PÁGINA ABOUT.HTML**** */
+
+    .aboutform{
+        text-align: center;
+        padding: 70px;
+        margin-right: 110px;
+    }
+    .about{
+        color: whitesmoke;
+        font-size: 14px;
+        text-align: justify;
+        padding-left: 100px
+    }
+    
+    .gabi{
+        max-width: 250px;
+        float: left;
+        padding-right: 50px;
+        margin-left: 80px;
+    }
+    
+    b{
+        font-size: 22px;
+    }
+        
+    .orange{
+        color:#e97304;
+    }
+
+/* ****PÁGINA PORTFOLIO.HTML**** */
+
+    .projform{
+        margin: auto;
+        text-align: center;
+        padding-top: 90px;
+    }
+
+    #projform{
+        display: inline-block;
+        padding:40px;
+    }
+
+    .sites{
+        max-width: 250px;
+        border-radius: 20px;
+    }
+
+    .games{
+        max-width: 243px;
+        border-radius: 20px;
+    }
+
+    .textform{
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 5px;
+    }
+
+/* ****PÁGINA SITES.HTML**** */
+
+    .photography{
+        max-width: 320px;
+        border-radius: 10px;
+    }
+
+    .inscribe{
+        max-width: 320px;
+        border-radius: 15px;
+    }
+
+    .inscribe2{
+        max-width: 320px;
+
+        border-radius: 15px;
+    }
+
+/* ****PÁGINA GAMES.HTML**** */
+
+    .progress{
+        color: whitesmoke;
+        padding: 50px;
+    }
+
+    .progressform{
+        text-align: center;
+        padding-top: 50px;
+        list-style: none;
+        font-size: 24px;
+    }
+
+    .imgprogress{
+        max-width: 100px;
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+/* ****PÁGINA CONTACT.HTML**** */
+
+    .contactform{
+        padding: 10px;
+        margin-left: 80px;
+    }
+    .contact{
+        color:whitesmoke;
+        float: left;
+        font-size: 14px;
+    }
+
+    #msg{
+        height: 100px;
+    }
+
+    .data{
+        color: whitesmoke;
+        padding: 40px;
+        display: inline-block;
+        float: right;
+        margin-right: 60px;
+        font-size: 14px;
+    }
+
+    #box,#msg{
+        background-color: whitesmoke;
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        padding: 3px;
+        margin-bottom: 5px;
+    }
+
+    .button{
+        float: right;
+        margin-right: 50px;
+        height: 30px;
+        width: 90px;
+        background-color: rgba(233, 225, 225, 0.877);
+        border-radius: 2px;
+    }
+
+    .contactphoto{
+        max-width: 210px;
+        float: left;
+        padding-right: 70px;
+        margin-top: 100px;
+    }
